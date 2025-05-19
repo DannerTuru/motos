@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tienda de Motos</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #111;
+      color: white;
+      padding: 15px 0;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #333;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav a {
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      background-color: #575757;
+    }
+
+    marquee {
+      background-color: #ffcc00;
+      padding: 10px;
+      color: black;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 20px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 30px;
+    }
+
+    table, th, td {
+      border: 1px solid #aaa;
+    }
+
+    th, td {
+      padding: 10px;
+      text-align: center;
+    }
+
+    iframe {
+      display: block;
+      margin: 20px auto;
+      max-width: 90%;
+    }
+
+    form {
+      background-color: #f2f2f2;
+      padding: 20px;
+      max-width: 600px;
+      margin: auto;
+      border-radius: 8px;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    input[type="submit"] {
+      background-color: #333;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Tienda de Motos</h1>
+  </header>
+
+  <nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#motos">Motos</a>
+    <a href="#juego">Juego</a>
+    <a href="#video">Video</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <marquee>¡Bienvenido a la mejor tienda de motos! Aprovecha nuestras ofertas especiales por tiempo limitado.</marquee>
+
+  <section id="inicio">
+    <h2>Inicio</h2>
+    <p>Explora nuestra amplia gama de motocicletas deportivas, urbanas y de turismo. ¡Hay una moto para cada aventura!</p>
+  </section>
+
+  <section id="motos">
+    <h2>Tabla de Motos Disponibles</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Modelo</th>
+          <th>Marca</th>
+          <th>Precio</th>
+          <th>Velocidad Máxima</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>R15 V4</td>
+          <td>Yamaha</td>
+          <td>$3,500</td>
+          <td>140 km/h</td>
+        </tr>
+        <tr>
+          <td>Dominar 400</td>
+          <td>Bajaj</td>
+          <td>$4,000</td>
+          <td>150 km/h</td>
+        </tr>
+        <tr>
+          <td>CBR 500R</td>
+          <td>Honda</td>
+          <td>$6,800</td>
+          <td>180 km/h</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="juego">
+    <h2>Juego Incrustado</h2>
+    <iframe src="https://wordwall.net/es/embed/a38cc028dbed4898aac2436b7e82dbac?themeId=23&templateId=49&fontStackId=0" width="640" height="480" frameborder="0" allowfullscreen></iframe>
+    <p style="text-align:center;">Diviertete un poco!</p>
+  </section>
+
+  <section id="video">
+    <h2>Video de YouTube</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Jvc51aMkKzE?si=ejZp5HQIqtMQcSeD" frameborder="0" allowfullscreen></iframe>
+    <p style="text-align:center;">Revisa nuestra reseña de la nueva línea de motos 2025.</p>
+  </section>
+
+  <section id="contacto">
+    <h2>Formulario de Contacto</h2>
+    <form>
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+
+      <label for="email">Correo electrónico:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+      <input type="submit" value="Enviar">
+    </form>
+  </section>
+
+  <footer style="text-align:center; background:#222; color:#fff; padding:10px;">
+    © 2025 Tienda de Motos - Todos los derechos reservados.
+  </footer>
+
+</body>
+</html>
